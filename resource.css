@@ -104,9 +104,9 @@
 
 .background {
     background: rgba(0, 0, 0, 0.7);
+    background-image:  url('../background.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    background-image: url("background.jpg");
 }
 
 .burger{
@@ -128,8 +128,8 @@
     }
     .navbar{
         flex-direction: column;
-/*          transition: all 0.3s ease-out; 
-        height: 448px;  */
+        transition: all 0.3s ease-out; 
+        height: 448px;  
     }
     .box-main {
         
