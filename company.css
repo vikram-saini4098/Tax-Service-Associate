@@ -96,10 +96,9 @@
 }
 
 .background {
-    background: rgba(0, 0, 0, 0.7);
+      background: rgba(0, 0, 0, 0.7) url('../background.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    background-image: url("background.jpg");
 }
 .forLogo{
     display: flex;
