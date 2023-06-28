@@ -96,9 +96,9 @@ html{
 
 .background {
     background: rgba(0, 0, 0, 0.7);
-    background-image:  url('../background.jpg');
     background-size: cover;
     background-blend-mode: darken;
+    background-image: url("background.jpg");
 }
 
 .firstSection {
