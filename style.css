@@ -79,6 +79,7 @@ html{
     background-color: rgb(17, 10, 235);
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn1111{
@@ -95,9 +96,9 @@ html{
 
 .background {
     background: rgba(0, 0, 0, 0.7);
+    background-image:  url('../background.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    background-image: url("background.jpg");
 }
 
 .firstSection {
