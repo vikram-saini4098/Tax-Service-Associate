@@ -1002,5 +1002,7 @@ margin: auto;
 .mainpara{
     flex-direction: column;
 }
-
+.btnser{
+    margin: 35px;
+}
  }
