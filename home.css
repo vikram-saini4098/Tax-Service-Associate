@@ -1,168 +1,52 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 }
-.flex{
+
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
     display: flex;
-    margin-top: 20px;
-    text-decoration: none;
-    color: rgb(38, 25, 24);
-    background-color: rgb(249, 248, 251);
-    font-size: large;
-    margin-left: 20px;
-}
-.prodbtn{
-    padding: 30px;
-}
-
-
-.logo {
-    width: 30%;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-}
-
-.logo img {
-    width: 45%;
-    margin: 10px;
-    padding: auto;
-    border: 1px solid gray;
-    border-radius: 12px;
-}
-
-.navbar {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    position: sticky;
-    top: 0;
-    cursor: pointer;
-    /* position: relative; */
-}
-
-.nav-list {
-    width: 50%;
-    display: flex;
     align-items: center;
-    
-}
-
-.nav-list li {
-    list-style: none;
-    padding: 26px 30px;
-}
-
-.nav-list li a {
-    text-decoration: none;
-    color: white;
-}
-
-.rightNav {
-    width: 50%;
-    text-align: right;
-}
-
-.btnser {
-    font-size: small;
-    padding: 9px 19px;
-    margin: 2px;
-    border-radius: 120px;
-    color: white;
-    background-color: rgb(211, 211, 228);
-    border: 3px solid wheat;
-    color: white;
-    background: none;
-    cursor: pointer;
-}
-
-.btnlog {
-    border:1px solid rgb(6, 3, 16);
-    font-size: medium;
-    padding: 18px 25px;
-    margin: 25px;
-    border-radius: 60px;
-    color: white;
-    background-color: rgb(17, 10, 235);
-    text-align: center;
-    cursor: pointer;
-}
-
-#search {
-    padding: 5px;
-    font-size: 17px;
-    border: 2px solid rgb(94, 88, 88);
-    border-radius: 9px;
-}
-
-.background {
-    background: rgba(0, 0, 0, 0.7) url('../background.jpg');
+    background: url('../bg.png');
     background-size: cover;
-    background-blend-mode: darken;
-}
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 3%;
-    top: 15px;
-}
-.line{
-    width:33px ;
-    background-color: white;
-    height: 4px;
-    margin: 5px 3px;
+    background-position: center;
+    font-family: 'roboto', sans-serif;
 }
 
-@media only screen and (max-width:1914px){
-    .nav-list{
-        flex-direction: column;
-    }
-    .navbar{
-        flex-direction: column;
-        transition: all 0.7s ease-out; 
-     height: 448px;
-    }
-    .box-main {
-        
-        flex-direction: column-reverse;
-    /* text-align: left; */
-    } 
-    .background{
-        /* height: 100%; */
-        text-decoration: none;
-    }
-    .checkme{
-        /* width: 100%; */
-        flex-direction: column;
-        font-size: 12px;
-    }
-    .text-big {
-        font-size: 27px;
-        flex-direction: column;
-    }
-   .btn1{
-    margin: 10px;
-    padding: 18px;
-   }
-   .btn2{
-margin: 10px;
-padding: 18px;
-   }
-    .rightNav{
-        text-align: center;
-    }
-    #search{
-        width: 100%;
-    }
-    .burger{
-        display: block;
-    }
-    .h-nav{
-        height: 72px;
-    }
-    .v-class{
-        opacity: 0;
-    }
+.container{
+    position: relative;
+    width: 90%;
+    height: 87vh;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 20px;
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.greeting{
+    font-family: 'dosis';
+    font-size: 100px;
+    color: #fff;
+    font-weight: 800;
+    text-transform: capitalize;
 }
